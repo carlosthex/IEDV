@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+.home {
+    display: flex;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 1.6em;
+    transform: translateY(80%);
+    color: rgba(255, 255, 255, 0.842);
+}
+
+header {
+    height: 8vh;
+    position: sticky;
+    top: 0;
+    background-color: #784830;
+    z-index: 100;
+}
+
+header nav {
+    display: flex;
+    justify-content:right;
+}
+
+header nav a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.topo {
+    background-image: url(imagens/topo.jpg);
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
+.topo h1{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.topo hr {
+    width: 100px;
+    height: 6px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #784830;
+    border: none;
+}
+
+.topo p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.about {
+    background-color: rgb(248, 248, 248);
+    height: 72vh;
+}
+
+.about h2 {
+    font-size: 2.8em;
+    padding-left: 60px;
+    padding-top: 200px;
+}
+
+.about hr {
+    width: 100px;
+    height: 6px;
+    background-color: #784830;
+    border: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-left: 60px;
+    width: 40%;
+    text-align: justify;
+    margin-bottom: 220px;
+}
+
+.about img {
+    position: absolute;
+    width: 540px;
+    height: 440px;
+    top: 80%;
+    right: 8%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.250);
+}
+
+.ofertas {
+    background-color: #ffffff;
+}
+
+.ofertas h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 120px;
+    font-weight: normal;
+}
+
+.ofertas hr {
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #784830;
+    border: none;
+}
+
+.ofertas p {
+    text-align: justify;
+    padding-left: 60px;
+    width: 42%;
+    line-height: 1.5em;
+}
+
+.ofertas img {
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.ofertas aside {
+    border: 1px solid black;
+    width: 40%;
+    height: 500px;
+}
+
+.contato h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 120px;
+    font-weight: normal;
+}
+
+.contato {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    height: 50vh;
+}
+
+.contato hr {
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #784830;
+    border: none;
+}
+
+.contato a {
+    text-decoration: none;
+    color: #784830;
+}
+
+.contato p {
+    padding: 20px;
+}
+
+#marrom {
+    color: #784830;
+}
+
+footer {
+    height: 10vh;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer h2 {
+    padding-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 0.9em;
+    padding-right: 10px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+#copy {
+    padding-top: 20px;
+}
