@@ -108,6 +108,7 @@ header nav a{
 
 .ofertas {
     background-color: white;
+    columns: 2;
 }
 
 .ofertas h2 {
@@ -130,7 +131,7 @@ header nav a{
 .ofertas p {
     text-align: justify;
     padding-left: 60px;
-    width: 42%;
+    width: 80%;
     line-height: 1.5em;
 }
 
@@ -139,13 +140,16 @@ header nav a{
     height: 260px;
     border-radius: 10px;
     margin-top: 30px;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
-.ofertas aside {
-    border: 1px solid black;
-    width: 30%;
+#qrcode {
+    width: 400px;
     height: 400px;
+}
+
+#camera {
+    text-align: center;
 }
 
 .contato h2 {
